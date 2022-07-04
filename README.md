@@ -39,7 +39,7 @@ Assuming you already have `python3` installed, the following steps are recommend
 ```
 pip install --user pipenv
 export PIPENV_VENV_IN_PROJECT=1
-pipenv install
+pipenv sync
 ```
 
 If you are using WSL2 and pipenv hangs, check the [Troubleshooting](#troubleshooting) section.
@@ -88,7 +88,7 @@ Check the docstrings and `docs/` for full documentation.
 To run the test suite located in `/tests` you will need to install the development dependencies with:
 
 ```
-pipenv install --dev
+pipenv sync --dev
 ```
 
 Once the development dependencies are installed, you can run the entire test suite with:
