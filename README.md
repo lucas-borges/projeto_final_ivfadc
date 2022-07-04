@@ -53,7 +53,7 @@ You can quickly train and populate an IVFADC using provided scripts.
 A dataset download script is provided on `scripts/download_dataset.sh`, checkout the its [README](scripts/README.md)
 
 ```
-./download_dataset SIFT10K
+./scripts/download_dataset.sh SIFT10K
 ```
 
 ### Configure parameters
